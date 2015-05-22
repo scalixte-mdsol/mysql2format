@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path("../lib/mysql2xxxx/version", __FILE__)
+require File.expand_path("../lib/mysql2format/version", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "mysql2format"
-  s.version     = Mysql2xxxx::VERSION
+  s.version     = Mysql2format::VERSION
   s.authors     = ["Seamus Abshere"]
   s.email       = ["seamus@abshere.net"]
   s.homepage    = "https://github.com/seamusabshere/mysql2format"

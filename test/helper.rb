@@ -17,7 +17,7 @@ require 'mysql2format'
 MYSQL_USER = 'root'
 MYSQL_PASS = 'password'
 MYSQL_HOST = '127.0.0.1'
-TEST_DB = 'mysql2xxxx_test'
+TEST_DB = 'mysql2format_test'
 
 def execute_sql(sql, db = 'mysql')
   POSIX::Spawn::Child.new %{mysql -u #{MYSQL_USER} -p#{MYSQL_PASS} --database="#{db}" --execute="#{sql}"}

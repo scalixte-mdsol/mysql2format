@@ -1,4 +1,4 @@
-mysql2xxxx
+mysql2format
 Version: 0.0.4
 Run:     2011-03-15 11:06:13 -0500
 System:  Darwin vidalia 10.6.0 Darwin Kernel Version 10.6.0: Wed Nov 10 18:13:17 PST 2010; root:xnu-1504.9.26~3/RELEASE_I386 i386

@@ -1,4 +1,4 @@
-module Mysql2xxxx
+module Mysql2format
   class Config
     attr_reader :user_specified_options
     def initialize(user_specified_options = {})

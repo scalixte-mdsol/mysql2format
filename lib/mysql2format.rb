@@ -7,11 +7,11 @@ require 'active_support/core_ext' if ::ActiveSupport::VERSION::MAJOR >= 3
 
 require 'mysql2'
 
-require 'mysql2xxxx/config'
-require 'mysql2xxxx/writer'
-require 'mysql2xxxx/writer/json'
-require 'mysql2xxxx/writer/csv'
-require 'mysql2xxxx/writer/xml'
+require 'mysql2format/config'
+require 'mysql2format/writer'
+require 'mysql2format/writer/json'
+require 'mysql2format/writer/csv'
+require 'mysql2format/writer/xml'
 
-module Mysql2xxxx
+module Mysql2format
 end
