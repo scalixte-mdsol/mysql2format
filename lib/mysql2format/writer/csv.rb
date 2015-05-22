@@ -4,7 +4,7 @@ else
   require 'fastercsv'
 end
 
-module Mysql2xxxx
+module Mysql2format
   class CSV < Writer
     SLASH_N = '\N'.freeze
     def to_file(f)

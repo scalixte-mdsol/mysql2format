@@ -4,3 +4,10 @@ Gemfile.lock
 pkg/*
 rdoc/*
 .DS_Store
+
+
+*.txt
+**/*txt
+**/**/*.txt
+benchmark/results/*.txt
+

@@ -1,6 +1,6 @@
 require 'multi_json'
 
-module Mysql2xxxx
+module Mysql2format
   class JSON < Writer
     def to_file(f)
       first = true

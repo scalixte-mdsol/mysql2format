@@ -1,6 +1,6 @@
 require 'stringio'
 
-module Mysql2xxxx
+module Mysql2format
   class Writer
     attr_reader :config
     
