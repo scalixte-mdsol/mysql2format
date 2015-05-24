@@ -4,7 +4,7 @@ unless RUBY_VERSION >= '1.9'
   require 'memprof'
 end
 $LOAD_PATH.unshift File.join(ENV['HERE'], '..', 'lib')
-require 'mysql2xxxx'
+require 'mysql2format'
 
 format = ARGV[0]
 
