@@ -3,7 +3,7 @@
 require "mysql2xxxx"
 require 'mysql2xxxx/cli'
 
-cli = Mysql2xxxx::Cli.new
+cli = Mysql2format::Cli.new
 cli.parse_options
 
-Mysql2xxxx::JSON.new(cli.config).to_stdout
+Mysql2format::JSON.new(cli.config).to_stdout

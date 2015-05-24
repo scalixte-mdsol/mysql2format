@@ -49,9 +49,9 @@ ensure
 end
 
 $stderr.puts "Writing report..."
-File.open File.expand_path(File.join(ENV['HERE'], 'results', "#{Mysql2xxxx::VERSION}-#{now.to_formatted_s(:number)}-#{RUBY_VERSION >= '1.9' ? 'ruby19' : 'ruby18'}.txt")), 'w' do |f|
+File.open File.expand_path(File.join(ENV['HERE'], 'results', "#{Mysql2format::VERSION}-#{now.to_formatted_s(:number)}-#{RUBY_VERSION >= '1.9' ? 'ruby19' : 'ruby18'}.txt")), 'w' do |f|
   f.puts %{mysql2xxxx}
-  f.puts %{Version: #{Mysql2xxxx::VERSION}}
+  f.puts %{Version: #{Mysql2format::VERSION}}
   f.puts %{Run:     #{now}}
   f.puts %{System:  #{`uname -a`}}
   FORMATS.each do |format|

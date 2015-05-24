@@ -12,7 +12,7 @@ To see all options
 
 ==Ruby
 
-    a = Mysql2xxxx::JSON.new :user => 'dbuser', :password => 'dbpassword', :database => 'dbname', :execute => "select * from automobile_makes"
+    a = Mysql2format::JSON.new :user => 'dbuser', :password => 'dbpassword', :database => 'dbname', :execute => "select * from automobile_makes"
     a.to_stdout                                     # write it directly to $stdout
     puts a.to_s                                     # get a string
     a.to_path('/tmp/outfile.json')                  # write it to a file at this path
@@ -20,7 +20,7 @@ To see all options
 
 Note also that if you're running it inside a Rails application, it will default to the ActiveRecord connection config.
 
-    a = Mysql2xxxx::JSON.new :execute => "select * from automobile_makes"  # no need to specify user, etc. because it's taken from ActiveRecord
+    a = Mysql2format::JSON.new :execute => "select * from automobile_makes"  # no need to specify user, etc. because it's taken from ActiveRecord
 
 ==Well-formedness
 

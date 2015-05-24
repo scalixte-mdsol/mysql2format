@@ -1,6 +1,6 @@
 require 'mixlib/cli'
 
-module Mysql2xxxx
+module Mysql2format
   class Cli
     include ::Mixlib::CLI
     %w{ user password host Port database }.each do |o|
