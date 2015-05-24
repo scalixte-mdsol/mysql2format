@@ -1,6 +1,12 @@
 *.gem
 .bundle
-Gemfile.lock
+pkg
 pkg/*
+doc
 rdoc/*
 .DS_Store
+tmp
+coverage
+.rvmrc
+.yardoc/
+Gemfile.lock
